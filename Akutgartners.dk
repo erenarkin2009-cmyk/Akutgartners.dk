@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akut Gartner</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #b6f26b;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        .section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        .contact {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background: #b6f26b;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #111;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Akut Gartner</h1>
+    <p>Opgrader din have med os</p>
+</header>
+
+<section class="section">
+    <h2>Om os</h2>
+    <p>
+        Vi er to 17-årige, der tilbyder havearbejde i lokalområdet.
+        Vi er arbejdsomme, pålidelige og klar til at hjælpe med alt fra
+        græsslåning og hækklipning til ukrudtsfjernelse og generel vedligeholdelse.
+    </p>
+    <p>
+        Vi går op i at gøre et godt stykke arbejde og sørger altid for,
+        at du som kunde er tilfreds med resultatet.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Vores services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>🌱 Græsslåning</h3>
+            <p>Vi holder din græsplæne flot og velplejet.</p>
+        </div>
+
+        <div class="card">
+            <h3>✂️ Hækklipning</h3>
+            <p>Præcis og pæn klipning af hække.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌿 Ukrudt</h3>
+            <p>Fjernelse af ukrudt og oprydning.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏡 Pergola & projekter</h3>
+            <p>Opsætning og små haveprojekter.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Kontakt os</h2>
+    <p>📞 53 84 89 38</p>
+    <p>📧 akutgartners@gmail.com</p>
+    <p>📍 Ballerup & Smørum</p>
+
+    <a class="btn" href="tel:53848938">Ring nu</a>
+</section>
+
+<footer>
+    <p>© 2026 Akut Gartner</p>
+</footer>
+
+</body>
+</html>
